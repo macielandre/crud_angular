@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'cr-hud',
+  selector: 'app-hud',
   templateUrl: './hud.component.html',
   styleUrls: ['./hud.component.css']
 })
