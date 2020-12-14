@@ -1,1 +1,10 @@
-<p>list works!</p>
+<div id="list">
+    <div th:each="evento: ${restaurant}">
+        <div class="row">
+            <p><span th:text="${restaurant.name}"></span></p>
+            <p><span th:text="${restaurant.cnpj}"></span></p>
+            <p><span th:text="${restaurant.rating}"></span></p>
+            <p><span th:text="${restaurant.register_date}"></span></p>
+        </div>
+    </div>
+</div>
