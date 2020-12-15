@@ -15,11 +15,11 @@ public class RestaurantRest {
     private RestaurantService service;
 
     @PostMapping("/register")//Inserir
-    public void register(){
+    public void insert(){
 
     }
 
-    @GetMapping//Pegar dado
+    @GetMapping("/list")//Pegar dado
     public List<Restaurant> list(){
         return service.find_all();
     }

@@ -8,7 +8,7 @@ import java.util.Date;
 
 @Data //Getters, setters, constructor...
 @Entity //Diz que essa classe vai representar um objeto no banco
-@Table(name="crud.restaurant")
+@Table(name="restaurant")
 public class Restaurant{
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)//Insere depois do ultimo id

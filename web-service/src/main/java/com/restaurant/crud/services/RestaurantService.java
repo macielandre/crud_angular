@@ -16,4 +16,5 @@ public class RestaurantService {
     public List<Restaurant> find_all(){
         return repository.findAll();
     }
+    
 }

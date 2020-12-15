@@ -1,12 +1,8 @@
-<div>
-    <p>Nome</p><input type="text">
-    <p>CNPJ</p><input type="text">
-    <p>Data registro</p><input type="date">
-    <p>Tipo</p><select name="tipes">
-        <option value="1">Hamburgueria</option>
-        <option value="2">Sushi</option>
-        <option value="3">Pizzaria</option>
-        <option value="4">Galeteria</option>
-    </select><br>
-    <button name="submit">Enviar</button>
+<div style="text-align:center">
+    <h1>Lista Restaurantes</h1>
 </div>
+<ul>
+    <li *ngFor="let item of items">
+        <h2>{{ item.name }}</h2>
+    </li>
+</ul>
