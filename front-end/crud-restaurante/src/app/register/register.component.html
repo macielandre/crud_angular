@@ -1,8 +1,12 @@
-<div style="text-align:center">
-    <h1>Lista Restaurantes</h1>
+<div>
+    <div style="text-align:center;"">
+        <h1>Register</h1>
+    </div>
+    <div formGroup="register" style="text-align:left;">
+        <input type="text" formGroupName="name" placeholder="Name">
+        <input type="text" formGroupName="cnpj" placeholder="CNPJ">
+        <input type="text" formGroupName="rating" placeholder="Rating">
+        <button id="submit" type="submit">Submit</button>
+    </div>    
 </div>
-<ul>
-    <li *ngFor="let item of items">
-        <h2>{{ item.name }}</h2>
-    </li>
-</ul>
+
